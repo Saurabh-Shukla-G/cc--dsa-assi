@@ -1,0 +1,169 @@
+					Assignment 5
+
+More on Iteratie Control Statements
+1. Write a program to print Mir N times on the screen 
+Answer-
+
+#include<stdio.h>
+int main()
+{
+        int i=1,n;
+        printf("Enter value of n: ");
+        scanf("%d",&n);
+        while(i<=n)
+        {
+                printf("MySirG ");
+                i++;
+        }
+        return 0;
+}
+
+
+2. Write a program to print the first N natural numbers. 
+Answer-
+
+#include<stdio.h>
+
+it  main()
+{
+        int i=1,n;
+        printf("Enter value of n: ");
+        scanf("%d",&n);
+        while(i<=n)
+        {
+                printf("%d ",i);
+                i++;
+        }
+        return 0;
+}
+
+
+3. Write a program to print the first N natural numbers in reverse order 
+Answer-
+
+#include<stdio.h>
+int main ()
+{
+        int n;
+        printf("Enter value of N: ");
+        scanf("%d",&n);
+        n++;
+        while(--n)
+                printf("%d ",n);
+        return 0;
+}
+
+
+4. Write a program to print the first N odd natural numbers 
+Answer-
+
+#include<stdio.h>
+int main()
+{
+        int n,i;
+        printf("Enter value of N: ");
+        scanf("%d",&n);
+        for(i=1;i<=n;i++)
+                printf("%d ",i*2-1);
+        return 0;
+}
+
+
+5. Write a program to print the first N odd natural numbers in reverse order. 
+Answer-
+
+#include<stdio.h>
+int main()
+{
+        int n,i;
+        printf("Enter value of N: ");
+        scanf("%d",&n);
+        for(i=n;i;i--)
+                printf("%d ",i*2-1);
+        return 0;
+}
+
+
+6. Write a program to print the first N even natural numbers 
+Answer-
+
+#include<stdio.h>
+int main()
+{
+        int n,i;
+        printf("Enter value of N: ");
+        scanf("%d",&n);
+        for(i=1;i<=n;i++)
+                printf("%d ",i*2);
+        return 0;
+}
+
+
+7. Write a program to print the first N even natural numbers in reverse order 
+Answer-
+
+#include<stdio.h>
+int main()
+{
+        int n,i;
+        printf("Enter value of N: ");
+        scanf("%d",&n);
+        for(i=n;i;i--)
+                printf("%d ",i*2);
+        return 0;
+}
+
+
+8. Write a program to print squares of the first N natural numbers 
+Answer-
+
+#include<stdio.h>
+int  main()
+{
+        int i=1,n;
+        printf("Enter value of n: ");
+        scanf("%d",&n);
+        while(i<=n)
+        {
+                printf("%d ",i*i);
+                i++;
+        }
+        return 0;
+}
+
+
+9. Write a program to print cubes of the first N natural numbers 
+Answer-
+
+#include<stdio.h>
+
+int  main()
+{
+        int i=1,n;
+        printf("Enter value of n: ");
+        scanf("%d",&n);
+        while(i<=n)
+        {
+                printf("%d ",i*i*i);
+                i++;
+        }
+        return 0;
+}
+
+
+10. Write a program to print a table of N.
+Answer-
+
+#include<stdio.h>
+int  main()
+{
+        int i=1,n;
+        printf("Enter value of n: ");
+        scanf("%d",&n);
+        while(i<=10)
+        {
+                printf("%d ",i*n);
+                i++;
+        }
+        return 0;
+}
